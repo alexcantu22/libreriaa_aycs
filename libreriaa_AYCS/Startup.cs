@@ -1,3 +1,4 @@
+using libreriaa_AYCS.Data;
 using libreriaa_AYCS.Data.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -61,6 +62,7 @@ namespace libreriaa_AYCS
             {
                 endpoints.MapControllers();
             });
+            AppDbInitialer.Seed(app);    
         }
     }
 }
