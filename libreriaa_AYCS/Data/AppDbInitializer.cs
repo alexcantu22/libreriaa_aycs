@@ -5,7 +5,7 @@ using System;
 using System.Linq;
 namespace libreriaa_AYCS.Data
 {
-    public class AppDbInitialer
+    public class AppDbInitializer
     {
         //Metodo que agrega datos a nuestra BD
         public static void Seed(IApplicationBuilder applicationBuilder)

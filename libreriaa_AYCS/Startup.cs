@@ -1,5 +1,6 @@
 using libreriaa_AYCS.Data;
 using libreriaa_AYCS.Data.Models;
+using libreriaa_AYCS.Data.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -35,7 +36,11 @@ namespace libreriaa_AYCS
 
             services.AddControllers();
             //Configurar DBContext con SQL
+            
+            
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(ConnectionString));
+            //configurar el servicio para que pueda ser usado
+            services.AddTransient<BooksService>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "libreriaa_AYCS", Version = "v1" });
@@ -62,7 +67,7 @@ namespace libreriaa_AYCS
             {
                 endpoints.MapControllers();
             });
-            AppDbInitialer.Seed(app);    
+            AppDbInitializer.Seed(app);    
         }
     }
 }

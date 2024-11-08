@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("libreriaa_AYCS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f827f92889fc893c28dbb210c6824f030afd7d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+765206ee9d7d9beac52b9fcfddda6d848a30ce12")]
 [assembly: System.Reflection.AssemblyProductAttribute("libreriaa_AYCS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("libreriaa_AYCS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

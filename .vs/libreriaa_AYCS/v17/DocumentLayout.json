@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|c:\\users\\uts-cds\\source\\repos\\libreriaa_aycs\\libreriaa_aycs\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|solutionrelative:libreriaa_aycs\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|c:\\users\\uts-cds\\source\\repos\\libreriaa_aycs\\libreriaa_aycs\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|solutionrelative:libreriaa_aycs\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|c:\\users\\uts-cds\\source\\repos\\libreriaa_aycs\\libreriaa_aycs\\data\\appdbinitialer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|solutionrelative:libreriaa_aycs\\data\\appdbinitialer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|c:\\users\\uts-cds\\source\\repos\\libreriaa_aycs\\libreriaa_aycs\\data\\viewmodels\\bookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|solutionrelative:libreriaa_aycs\\data\\viewmodels\\bookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|c:\\users\\uts-cds\\source\\repos\\libreriaa_aycs\\libreriaa_aycs\\data\\services\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|solutionrelative:libreriaa_aycs\\data\\services\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|c:\\users\\uts-cds\\source\\repos\\libreriaa_aycs\\libreriaa_aycs\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +25,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|c:\\users\\uts-cds\\source\\repos\\libreriaa_aycs\\libreriaa_aycs\\data\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|solutionrelative:libreriaa_aycs\\data\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|c:\\users\\uts-cds\\source\\repos\\libreriaa_aycs\\libreriaa_aycs\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|solutionrelative:libreriaa_aycs\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|c:\\users\\uts-cds\\source\\repos\\libreriaa_aycs\\libreriaa_aycs\\migrations\\20241106194120_initialdatabasemigration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|solutionrelative:libreriaa_aycs\\migrations\\20241106194120_initialdatabasemigration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|c:\\users\\uts-cds\\source\\repos\\libreriaa_aycs\\libreriaa_aycs\\data\\appdbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|solutionrelative:libreriaa_aycs\\data\\appdbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|c:\\users\\uts-cds\\source\\repos\\libreriaa_aycs\\libreriaa_aycs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -30,21 +50,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 266,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Data\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "libreriaa_AYCS\\Data\\Models\\Book.cs",
-              "ToolTip": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Data\\Models\\Book.cs",
-              "RelativeToolTip": "libreriaa_AYCS\\Data\\Models\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T20:09:03.144Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -58,8 +65,88 @@
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "BookVM.cs",
+              "DocumentMoniker": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Data\\ViewModels\\BookVM.cs",
+              "RelativeDocumentMoniker": "libreriaa_AYCS\\Data\\ViewModels\\BookVM.cs",
+              "ToolTip": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Data\\ViewModels\\BookVM.cs",
+              "RelativeToolTip": "libreriaa_AYCS\\Data\\ViewModels\\BookVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T16:33:55.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BooksService.cs",
+              "DocumentMoniker": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Data\\Services\\BooksService.cs",
+              "RelativeDocumentMoniker": "libreriaa_AYCS\\Data\\Services\\BooksService.cs",
+              "ToolTip": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Data\\Services\\BooksService.cs",
+              "RelativeToolTip": "libreriaa_AYCS\\Data\\Services\\BooksService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T16:27:29.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "libreriaa_AYCS\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "libreriaa_AYCS\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T16:24:34.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "libreriaa_AYCS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "libreriaa_AYCS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T16:19:30.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20241106194120_InitialDataBaseMigration.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Migrations\\20241106194120_InitialDataBaseMigration.Designer.cs",
+              "RelativeDocumentMoniker": "libreriaa_AYCS\\Migrations\\20241106194120_InitialDataBaseMigration.Designer.cs",
+              "ToolTip": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Migrations\\20241106194120_InitialDataBaseMigration.Designer.cs",
+              "RelativeToolTip": "libreriaa_AYCS\\Migrations\\20241106194120_InitialDataBaseMigration.Designer.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T16:19:10.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Data\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "libreriaa_AYCS\\Data\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Data\\Models\\Book.cs",
+              "RelativeToolTip": "libreriaa_AYCS\\Data\\Models\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T20:09:03.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "libreriaa_AYCS\\Data\\AppDbContext.cs",
@@ -72,20 +159,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbInitialer.cs",
-              "DocumentMoniker": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Data\\AppDbInitialer.cs",
-              "RelativeDocumentMoniker": "libreriaa_AYCS\\Data\\AppDbInitialer.cs",
-              "ToolTip": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Data\\AppDbInitialer.cs",
-              "RelativeToolTip": "libreriaa_AYCS\\Data\\AppDbInitialer.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAYwCIAAAAmAAAA",
+              "DocumentIndex": 8,
+              "Title": "AppDbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Data\\AppDbInitializer.cs",
+              "RelativeDocumentMoniker": "libreriaa_AYCS\\Data\\AppDbInitializer.cs",
+              "ToolTip": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Data\\AppDbInitializer.cs",
+              "RelativeToolTip": "libreriaa_AYCS\\Data\\AppDbInitializer.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAYwBcAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T17:12:29.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T17:12:29.472Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\appsettings.json",
               "RelativeDocumentMoniker": "libreriaa_AYCS\\appsettings.json",
@@ -93,25 +179,20 @@
               "RelativeToolTip": "libreriaa_AYCS\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-05T20:22:58.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T20:22:58.792Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Startup.cs",
               "RelativeDocumentMoniker": "libreriaa_AYCS\\Startup.cs",
               "ToolTip": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Startup.cs",
               "RelativeToolTip": "libreriaa_AYCS\\Startup.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAIwEAAAAAmAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAA1wCoAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T20:08:01.556Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

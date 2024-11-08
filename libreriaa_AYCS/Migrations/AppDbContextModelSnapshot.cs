@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using libreriaa_AYCS.Data.Models;
+using libreriaa_AYCS.Data;
 
 namespace libreriaa_AYCS.Migrations
 {
