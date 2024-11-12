@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace libreriaa_AYCS.Data.Models
 {
@@ -14,5 +15,12 @@ namespace libreriaa_AYCS.Data.Models
         public string? Autor { get; set; }
         public string? CoverUrl { get; set; }
         public DateTime dateAdded { get; set; }
+
+        //propiedades de navegacion( en esta parte es donde especificamos las relaciones)
+
+        public int PublisherId { get; set; }
+        public Publisher Publisher { get; set; }
+
+        public List<Book_Author> Book_Authors { get; set; }
     }
 }
