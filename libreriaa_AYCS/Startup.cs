@@ -39,8 +39,14 @@ namespace libreriaa_AYCS
             
             
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(ConnectionString));
+            
             //configurar el servicio para que pueda ser usado
             services.AddTransient<BooksService>();
+            services.AddTransient<AuthorService>();
+            services.AddTransient<PublishersService>();
+
+
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "libreriaa_AYCS", Version = "v1" });
@@ -67,7 +73,7 @@ namespace libreriaa_AYCS
             {
                 endpoints.MapControllers();
             });
-            AppDbInitializer.Seed(app);    
+           // AppDbInitializer.Seed(app);    
         }
     }
 }
