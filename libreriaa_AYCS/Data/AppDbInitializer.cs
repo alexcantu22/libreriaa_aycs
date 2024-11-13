@@ -24,7 +24,6 @@ namespace libreriaa_AYCS.Data
                         DateRead = DateTime.Now.AddDays(-10),
                         Rate = 4,
                         Genero = "Byography",
-                        Autor = "1st Author",
                         CoverUrl = "https...",
                         dateAdded = DateTime.Now,
                     },
@@ -34,7 +33,6 @@ namespace libreriaa_AYCS.Data
                         Descripcion = "2nd Book Description",
                         IsRead = true,
                         Genero = "Byography",
-                        Autor = "2nd Author",
                         CoverUrl = "https...",
                         dateAdded = DateTime.Now,
                     });
