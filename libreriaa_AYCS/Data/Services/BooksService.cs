@@ -25,7 +25,6 @@ namespace libreriaa_AYCS.Data.Services
                 DateRead = book.DateRead,
                 Rate = book.Rate,
                 Genero = book.Genero,
-
                 CoverUrl = book.CoverUrl,
                 dateAdded = DateTime.Now,
                 PublisherId = book.PublisherID
@@ -47,7 +46,22 @@ namespace libreriaa_AYCS.Data.Services
         //metodo que nos permite obtener una lista de todos los libros de la BD
          public List<Book> GetAllBks() => _context.Books.ToList();
         //metodo que nos permite obtener el libro por ID de la BD
-       public Book GetBookById(int bookid) => _context.Books.FirstOrDefault(n => n.id == bookid);
+       public BookWithAuthorsVM GetBookById(int bookid)
+        {
+            var _booksWithAuthors = _context.Books.Where(n => n.id == bookid).Select(book => new BookWithAuthorsVM()
+            {
+                Titulo = book.Titulo,
+                Descripcion = book.Descripcion,
+                IsRead = book.IsRead,
+                DateRead = book.DateRead,
+                Rate = book.Rate,
+                Genero = book.Genero,
+                CoverUrl = book.CoverUrl,
+                PublisherIDName = book.Publisher.Name,
+                AutorNames = book.Book_Authors.Select(n => n.Author.FullName).ToList()
+            }).FirstOrDefault();
+            return _booksWithAuthors;
+        }
         //metodo que nos permite editar una libro de todos los libros de la BD
         public Book UpdateBookById(int bookid, BookVM book)
         {

@@ -23,5 +23,13 @@ namespace libreriaa_AYCS.Controllers
             return Ok();
         }
 
+        [HttpGet("get-author-with-books-by-id/{id}")]
+
+        public IActionResult GetAuthorWithBook(int id) 
+        {
+          var response = _authorsServices.GetAuthorWithBooksVM(id);
+            return Ok(response);
+        }
+
     }
 }

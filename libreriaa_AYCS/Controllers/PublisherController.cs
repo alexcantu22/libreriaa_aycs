@@ -11,7 +11,7 @@ namespace libreriaa_AYCS.Controllers
     {
         private PublishersService _PublishersServices;
 
-        public PublishersController(PublishersService PublishersServices) 
+        public PublishersController(PublishersService PublishersServices)
         {
             _PublishersServices = PublishersServices;
         }
@@ -21,6 +21,13 @@ namespace libreriaa_AYCS.Controllers
         {
             _PublishersServices.AddPublisher(publisher);
             return Ok();
+        }
+
+        [HttpGet("get-publisher-books-with-authors/{id}")]
+        public IActionResult GetPublisherData(int id)
+        { 
+          var  _response = _PublishersServices.GetPublisherData(id);
+            return Ok( _response );
         }
     }
 }
