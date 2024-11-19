@@ -29,5 +29,12 @@ namespace libreriaa_AYCS.Controllers
           var  _response = _PublishersServices.GetPublisherData(id);
             return Ok( _response );
         }
+
+        [HttpDelete("delete-publisher-by-id/{id}")]
+        public IActionResult DeletePublisherById(int id)
+        {
+            _PublishersServices.DeletePublisherById(id);
+            return Ok();    
+        }
     }
 }
