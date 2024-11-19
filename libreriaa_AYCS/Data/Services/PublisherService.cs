@@ -14,7 +14,7 @@ namespace libreriaa_AYCS.Data.Services
             _context = context;
         }
         //metodo que nos deja agregar una nueva Editora a la BD
-        public void AddPublisher(PublisherVM publisher)
+        public Publisher AddPublisher(PublisherVM publisher)
         {
             var _Publisher = new Publisher()
             {
@@ -23,7 +23,11 @@ namespace libreriaa_AYCS.Data.Services
             };
             _context.Publishers.Add(_Publisher);
             _context.SaveChanges();
+
+            return _Publisher;
         }
+
+        public Publisher GetPublisherByID(int id) => _context.Publishers.FirstOrDefault(n => n.Id == id);
 
         public PublisherWithBooksAndAuthorsVM GetPublisherData(int publisherId)
         {

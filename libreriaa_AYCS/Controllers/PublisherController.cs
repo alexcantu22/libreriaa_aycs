@@ -19,8 +19,23 @@ namespace libreriaa_AYCS.Controllers
         [HttpPost("add-Publisher")]
         public IActionResult AddPublisher([FromBody] PublisherVM publisher)
         {
-            _PublishersServices.AddPublisher(publisher);
-            return Ok();
+           var newPublisher = _PublishersServices.AddPublisher(publisher);
+            return Created(nameof(AddPublisher), newPublisher);
+        }
+
+        [HttpGet("get-publisher-id/{id}")]
+        public IActionResult GetPublisherById(int id)
+        {
+            var _response = _PublishersServices.GetPublisherByID(id);
+            if (_response != null)
+            {
+                return Ok(_response);
+            }
+            else
+            {
+                return NotFound();
+            }
+            
         }
 
         [HttpGet("get-publisher-books-with-authors/{id}")]
