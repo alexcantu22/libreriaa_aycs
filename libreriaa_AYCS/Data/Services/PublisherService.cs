@@ -1,8 +1,10 @@
 ﻿
 using libreriaa_AYCS.Data.Models;
 using libreriaa_AYCS.Data.ViewModels;
+using libreriaa_AYCS.Exceptions;
 using System;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace libreriaa_AYCS.Data.Services
 {
@@ -16,6 +18,8 @@ namespace libreriaa_AYCS.Data.Services
         //metodo que nos deja agregar una nueva Editora a la BD
         public Publisher AddPublisher(PublisherVM publisher)
         {
+            if (StringsStartWithNumber(publisher.Name)) throw new PublisherNameException("El nombre empieza con un numero",
+               publisher.Name);
             var _Publisher = new Publisher()
             {
                 Name = publisher.Name
@@ -52,6 +56,12 @@ namespace libreriaa_AYCS.Data.Services
                 _context.Publishers.Remove(_publisher);
                 _context.SaveChanges();
             }
+            else
+            {
+                throw new Exception($"La editora con el id {id} no existe!");
+            }
+        }
+        private bool StringsStartWithNumber(string name) => (Regex.IsMatch(name, @"^\d"));
         }
     }
-}
+

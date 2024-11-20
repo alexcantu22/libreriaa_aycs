@@ -1,7 +1,9 @@
 ﻿  using libreriaa_AYCS.Data.Services;
 using libreriaa_AYCS.Data.ViewModels;
+using libreriaa_AYCS.Exceptions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace libreriaa_AYCS.Controllers
 {
@@ -19,8 +21,20 @@ namespace libreriaa_AYCS.Controllers
         [HttpPost("add-Publisher")]
         public IActionResult AddPublisher([FromBody] PublisherVM publisher)
         {
-           var newPublisher = _PublishersServices.AddPublisher(publisher);
-            return Created(nameof(AddPublisher), newPublisher);
+            try
+            { 
+                    var newPublisher = _PublishersServices.AddPublisher(publisher);
+                    return Created(nameof(AddPublisher), newPublisher);
+                
+            }
+            catch (PublisherNameException ex)
+            {
+                return BadRequest($"{ex.Message}, Nombre de la editora: {ex.PublisherName}");
+            }
+            catch (Exception ex) 
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpGet("get-publisher-id/{id}")]
@@ -48,8 +62,18 @@ namespace libreriaa_AYCS.Controllers
         [HttpDelete("delete-publisher-by-id/{id}")]
         public IActionResult DeletePublisherById(int id)
         {
-            _PublishersServices.DeletePublisherById(id);
-            return Ok();    
+            
+            try
+            {
+                _PublishersServices.DeletePublisherById(id);
+                return Ok();
+            }
+           
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
+        
     }
 }

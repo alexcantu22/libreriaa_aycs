@@ -11,12 +11,8 @@
       "RelativeMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|solutionrelative:libreriaa_aycs\\data\\services\\publisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|c:\\users\\uts-cds\\source\\repos\\libreriaa_aycs\\libreriaa_aycs\\data\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|solutionrelative:libreriaa_aycs\\data\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|c:\\users\\uts-cds\\source\\repos\\libreriaa_aycs\\libreriaa_aycs\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|solutionrelative:libreriaa_aycs\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|c:\\users\\uts-cds\\source\\repos\\libreriaa_aycs\\libreriaa_aycs\\exceptions\\publishernameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F64A0B5-603C-4064-86BA-759F934CEF35}|libreriaa_AYCS\\libreriaa_AYCS.csproj|solutionrelative:libreriaa_aycs\\exceptions\\publishernameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 266,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,13 +42,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PublisherNameException.cs",
+              "DocumentMoniker": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Exceptions\\PublisherNameException.cs",
+              "RelativeDocumentMoniker": "libreriaa_AYCS\\Exceptions\\PublisherNameException.cs",
+              "ToolTip": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Exceptions\\PublisherNameException.cs",
+              "RelativeToolTip": "libreriaa_AYCS\\Exceptions\\PublisherNameException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T19:59:09.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PublisherController.cs",
               "DocumentMoniker": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Controllers\\PublisherController.cs",
               "RelativeDocumentMoniker": "libreriaa_AYCS\\Controllers\\PublisherController.cs",
               "ToolTip": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Controllers\\PublisherController.cs",
               "RelativeToolTip": "libreriaa_AYCS\\Controllers\\PublisherController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAmwCUAAAAMAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAB4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T19:56:24.882Z",
               "EditorCaption": ""
@@ -65,34 +74,10 @@
               "RelativeDocumentMoniker": "libreriaa_AYCS\\Data\\Services\\PublisherService.cs",
               "ToolTip": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Data\\Services\\PublisherService.cs",
               "RelativeToolTip": "libreriaa_AYCS\\Data\\Services\\PublisherService.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB0AAABpAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAIA6wBUAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T19:56:41.288Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthorsController.cs",
-              "DocumentMoniker": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Controllers\\AuthorsController.cs",
-              "RelativeDocumentMoniker": "libreriaa_AYCS\\Controllers\\AuthorsController.cs",
-              "ToolTip": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Controllers\\AuthorsController.cs",
-              "RelativeToolTip": "libreriaa_AYCS\\Controllers\\AuthorsController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAmwCEAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T18:00:46.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthorService.cs",
-              "DocumentMoniker": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Data\\Services\\AuthorService.cs",
-              "RelativeDocumentMoniker": "libreriaa_AYCS\\Data\\Services\\AuthorService.cs",
-              "ToolTip": "C:\\Users\\UTS-CDS\\source\\repos\\libreriaa_AYCS\\libreriaa_AYCS\\Data\\Services\\AuthorService.cs",
-              "RelativeToolTip": "libreriaa_AYCS\\Data\\Services\\AuthorService.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAcwCMAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:51:34.963Z"
             }
           ]
         }
